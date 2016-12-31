@@ -19,7 +19,7 @@ pwd
 press "Regenerating site using hugo"
 ~/z/bin/lin64/hugo_0.18_linux_amd64/hugo_0.18_linux_amd64
 
-press "Copying generated site from [$PWD]/public to $WWW_MJB/"
+press "Copying generated site from [$PWD]/public to $GIT_SRC/"
 rsync -av public/ $GIT_SRC/ | grep -v /$
 
 cd $GIT_SRC/
