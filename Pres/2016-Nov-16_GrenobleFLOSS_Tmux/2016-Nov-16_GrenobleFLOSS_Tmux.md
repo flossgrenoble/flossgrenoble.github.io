@@ -3,9 +3,9 @@ layout: false
 class: center, middle
 
 ##Tmux + TMuxinator
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/logo-tmux.svg)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/logo-tmux.svg)
 ###Grenoble FLOSS Meetup, 16 Nov 2016
-<h3> Mike Bright, <img src="/images.2016-Nov-16_GrenobleFLOSS_Tmux/Twitter_Bird.svg" width=24 /> @mjbright </h3>
+<h3> Mike Bright, <img src="/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/Twitter_Bird.svg" width=24 /> @mjbright </h3>
 
 .left[.footnote[.vlightgray[ @mjbright ]]]
 
@@ -68,8 +68,8 @@ Your work is not lost, programs continue to run
 ]
 .left[.footnote[.vlightgray[ @mjbright ]]]
 
-<!-- ![]( /images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux0_session.gif) -->
-<!-- <img src="/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux0_session.gif" width=400/> -->
+<!-- ![]( /static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux0_session.gif) -->
+<!-- <img src="/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux0_session.gif" width=400/> -->
 
 
 ???
@@ -87,7 +87,7 @@ class: center, left
 ## .blue[But **tmux** is so much more ...]
 <!-- .red[ TEST ]  .blue[TEST]  .green[TEST]  .yellow[TEST]  .magenta[TEST]  .cyan[TEST]  .pink[TEST] -->
 
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux-sessions-windows-panes-01.svg)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux-sessions-windows-panes-01.svg)
 
 Use `tmux ls` to see currently running sessions
 
@@ -107,7 +107,7 @@ class: center, left
 - tmux | : | started in 2011, very active
 -|-|-|--
 - GNU screen | : | much older, has many similar features
-<img src="/images.2016-Nov-16_GrenobleFLOSS_Tmux/gnu-screen.png" />
+<img src="/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/gnu-screen.png" />
  - Byobu | : | Orginally a wrapper around screen, now tmux is its default
  - tmuxinator | : | Ruby gem for complex tmux layouts
 
@@ -226,18 +226,18 @@ By default this displays
 - current user, ip address, session-name ('0' below)
 - A list of window-names (current-*, with current command)
 
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_statusbar_default_left.png)
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_statusbar_default_right.png)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_statusbar_default_left.png)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_statusbar_default_right.png)
 
 
 Through tmux.conf (see later) we can customize as we wish, for example:
 
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_left.png)
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_right.png)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_left.png)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_right.png)
 
 Note that if a window is in full-screen mode then 'Z' is appended to that window name
 
-![](/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_left_Z.png)
+![](/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/tmux_status_left_Z.png)
 
 ]
 .left[.footnote[.vlightgray[ @mjbright ]]]
@@ -471,7 +471,7 @@ class: center, left
 
 ## GNU Screen
 .left[
-<img src="/images.2016-Nov-16_GrenobleFLOSS_Tmux/gnu-screen.png" />
+<img src="/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/gnu-screen.png" />
 https://www.gnu.org/software/screen/
 
 Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
@@ -495,7 +495,7 @@ class: center, left
 
 ## Byobu
 .left[
-<img src="/images.2016-Nov-16_GrenobleFLOSS_Tmux/byobu-logo.png" />
+<img src="/static/images.2016-Nov-16_GrenobleFLOSS_Tmux/byobu-logo.png" />
 http://byobu.co/
 
 Byobu is a GPLv3 open source text-based window manager and terminal multiplexer.
