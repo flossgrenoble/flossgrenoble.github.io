@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/index.xml</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>FLOSS Grenoble Site</title>
+    <link>https://flossgrenoble.github.io/index.xml</link>
+    <description>Recent content on FLOSS Grenoble Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Dec 2016 00:05:41 +0100</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://flossgrenoble.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome to FLOSS Grenoble</title>
-      <link>http://example.org/start/</link>
+      <link>https://flossgrenoble.github.io/start/</link>
       <pubDate>Sat, 31 Dec 2016 00:05:41 +0100</pubDate>
       
-      <guid>http://example.org/start/</guid>
+      <guid>https://flossgrenoble.github.io/start/</guid>
       <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
 </description>
     </item>
