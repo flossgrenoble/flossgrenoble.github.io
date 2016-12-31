@@ -1,4 +1,5 @@
 +++
+type = "page"
 next = "/next/path"
 prev = "/prev/path"
 weight = 5
